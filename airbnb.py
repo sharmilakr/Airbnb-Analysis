@@ -62,7 +62,7 @@ if select == "Data exploration":
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
  else:
-    os.chdir(r"C:\Users\manik\Desktop\project 4")
+    os.chdir(r"*****************")
     df = pd.read_csv("Airbnb NYC 2023.csv", encoding="ISO-8859-1")
 
  st.sidebar.header("Choose your filter: ")
